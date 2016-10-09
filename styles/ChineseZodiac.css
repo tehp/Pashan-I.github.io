@@ -2,8 +2,7 @@ body{
 	background: url(../images/background.png) no-repeat center center fixed; 
 	background-color: #801a00;
 	color:#ffcc00;
-	margin:0;
-   padding:0;
+   padding:0.5%;
    height:100%;
 }
 .center-content{
