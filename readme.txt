@@ -1,0 +1,13 @@
+http://cf.ltkcdn.net/tattoos/images/slide/167807-800x798-Primative_Chinese_zodiac_yin_yang.jpg
+http://www.chinahighlights.com/travelguide/chinese-zodiac/rabbit.htm
+http://www.chinahighlights.com/travelguide/chinese-zodiac/dog.htm
+http://www.chinahighlights.com/travelguide/chinese-zodiac/rooster.htm
+http://www.chinahighlights.com/travelguide/chinese-zodiac/tiger.htm
+http://www.chinahighlights.com/travelguide/chinese-zodiac/rat.htm
+http://www.chinahighlights.com/travelguide/chinese-zodiac/ox.htm
+http://www.chinahighlights.com/travelguide/chinese-zodiac/dragon.htm
+http://www.chinahighlights.com/travelguide/chinese-zodiac/snake.htm
+http://www.chinahighlights.com/travelguide/chinese-zodiac/horse.htm
+http://www.chinahighlights.com/travelguide/chinese-zodiac/goat.htm
+http://www.chinahighlights.com/travelguide/chinese-zodiac/monkey.htm
+http://www.chinahighlights.com/travelguide/chinese-zodiac/pig.htm

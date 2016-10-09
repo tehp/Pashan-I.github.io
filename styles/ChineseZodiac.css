@@ -1,0 +1,243 @@
+body{
+	overflow-x:hidden;
+	background: url(../images/background.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: #794A8D;
+	align-items:center;
+	display:inline;
+	justify-content:center;
+	color:#ffcc00;
+	font-family: Arial;
+	background-color: #801a00;
+	
+}
+
+.input{
+	margin:auto;
+	display:block;
+	
+}
+
+.formHolder{
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+form{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+textarea {
+    width: 90%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #b32400;
+    border-radius: 4px;
+	color:#ffcc00;
+    background-color: #b32400;
+    resize: none;
+}
+
+input{
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #b32400;
+    border-radius: 4px;
+	color:#ffcc00;
+    background-color: #b32400;
+    resize: none;
+	margin-bottom: 12px;
+}
+
+.mainDiv{
+	margin-top:0.75%;
+	-webkit-box-shadow: 0px 0px 18px 2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 18px 2px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 18px 2px rgba(0,0,0,0.75);
+}
+
+.contain{
+	display:flex;
+	overflow:hidden;
+	align-items:center;
+	justify-content: center;
+	width:100%;
+	background-color: #b32400;
+	-webkit-box-shadow: 0px 0px 18px 2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 18px 2px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 18px 2px rgba(0,0,0,0.75);
+}
+
+.containSign{
+	display:flex;
+	overflow:hidden;
+	align-items:center;
+	justify-content: center;
+	width:100%;
+	background-color: #b32400;
+}
+.banner{
+	margin-left:auto;
+	margin-right:auto;
+	width:389px;
+    height:128px;
+}
+
+.mainContainer{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #794A8D;
+}
+
+.animal{
+	margin: 0.5%;
+	width: 12%;
+}
+
+img{
+	width: 100%;
+	
+}
+
+.topLine{
+	margin-bottom: 10px;
+	background-color: #b32400;
+	width: 90%;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+	-webkit-box-shadow: 0px 0px 18px 2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 18px 2px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 18px 2px rgba(0,0,0,0.75);
+}
+
+a{
+	text-decoration: none;
+}
+
+.bannerImg{
+	width: 6vw;
+    height: 1.2vw;
+}
+
+.bannerOp{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.homeParagraph{
+	margin: 30px;
+	padding: 12px;	
+	background-color: #b32400;
+	margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+	width: 60%;
+	/* border-style: solid; */
+	font-size: 200%;
+    /* height: 25vw; */
+	  justify-content:space-between;
+}
+
+
+.logo{
+		width: 4vw;
+    height: 4vw;
+}
+.animalInfo{
+	margin-top: 15px;
+	color: #ffcc00;
+	text-align:left;
+	font-size: 50%;
+}
+
+.port{
+	width: 25vw;
+    height: 25vw;
+	display: inline-block;
+	background-size: 100% 100%;
+}
+
+.zodiacPage{
+	background-color: #801a00;
+		-webkit-box-shadow: 0px 0px 18px 2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 18px 2px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 18px 2px rgba(0,0,0,0.75);
+}
+
+.foot{
+    -webkit-box-shadow: 0px 0px 18px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 18px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 18px 2px rgba(0,0,0,0.75);
+    position: fixed;
+	bottom: 0;
+    width: 100%;
+	height: 10vw;
+	margin: auto;
+    height: 2vw;
+    background-color: #ffcc00 ;
+    color: #b32400 ;
+    display:flex;
+    overflow:hidden;
+    align-items:center;
+    justify-content: center;
+}
+
+.foot a{
+    /*margin: 10px;*/
+    font-weight: bold;
+}
+
+.tiger{
+	background-image: url(../images/tiger.png);
+}
+
+.rabbit{
+	background-image: url(../images/rabbit.png);
+}
+
+.rooster{
+	background-image: url(../images/rooster.png);
+}
+
+.dragon{
+	background-image: url(../images/dragon.png);
+}
+
+.dog{
+	background-image: url(../images/dog.png);
+}
+
+.snake{
+	background-image: url(../images/snake.png);
+}
+
+.ox{
+	background-image: url(../images/ox.png);
+}
+
+.rat{
+	background-image: url(../images/rat.png);
+}
+
+.horse{
+	background-image: url(../images/horse.png);
+}
+
+.goat{
+	background-image: url(../images/goat.png);
+}
+
+.monkey{
+	background-image: url(../images/monkey.png);
+}
+
+.pig{
+	background-image: url(../images/pig.png);
+}
+
+
+
