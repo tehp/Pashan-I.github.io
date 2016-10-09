@@ -2,6 +2,9 @@ body{
 	background: url(../images/background.png) no-repeat center center fixed; 
 	background-color: #801a00;
 	color:#ffcc00;
+	margin:0;
+   padding:0;
+   height:100%;
 }
 .center-content{
 	display:flex;
@@ -9,6 +12,7 @@ body{
 	align-items:center;
 	text-align: center;
 }
+
 
 .bg-box{
 	background-color: #b32400;
@@ -43,8 +47,6 @@ body{
 	-webkit-box-shadow: 0px 0px 18px 2px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 18px 2px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 18px 2px rgba(0,0,0,0.75);
-    position: fixed;
-	bottom: 0;
 	background-color: #ffcc00 ;
 	color: #b32400 ;
 }
@@ -57,3 +59,4 @@ body{
 .img-scale{
 	width: 75%;
 }
+
