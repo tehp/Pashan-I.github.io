@@ -37,6 +37,7 @@ body{
 .block{
 	display: block;
 }
+
 .logo{
 	width: 5%;
 }
@@ -48,8 +49,6 @@ body{
 	background-color: #ffcc00 ;
 	color: #b32400 ;
 	position: absolute;
-
-	
 }
 
 .footer a{
