@@ -34,17 +34,30 @@
 			
 				<form action="http://php.vncvr.ca/zodiac/" method="post">
 						<div class="formHolder">
-							<table class=".table-responsive">
-								<tr>
-									<th class ="input">Name: <input name="Name" type="text" id="firstName"  size="15"/> Email: <input type="text" name="Email" maxlength="30" size="30" /></th>
-								</tr>
-								<tr>
-									<td class ="input">Comment<br/><textarea name="Comment"  rows="4" cols="50"></textarea></td>
-								</tr>
-								<tr>
-									<td><input type="submit" value="Submit"/></td>
-								</tr>
-							</table>
+							<div class="row">
+									<div class="col-sm-6 center-content">
+										<div class="margin-add padded">
+											Name: <input class="hunnid" name="Name" type="text" id="firstName"  size="15"/>
+										</div>
+									</div>
+									<div class="col-sm-6 center-content">
+										<div class="margin-add padded">
+											Email: <input type="text" class="hunnid" name="Email" maxlength="30" size="30" />
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-12 center-content">
+										<div class="margin-add padded">
+											Comment:<textarea class="hunnid" name="Comment"  rows="4" cols="50"></textarea>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-12 center-content padded">
+										<input type="submit" value="Submit"/>
+									</div>
+								</div>
 							<input type="hidden" name="Student1Name" value="Pashan Irani"/>
 							<input type="hidden" name="Student2Name" value="Tony Huang"/>
 							<input type="hidden" name="Set" value="1D"/>
