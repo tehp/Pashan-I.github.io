@@ -1,28 +1,75 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
-<html xmlns="http://www.w3.org/1999/xhtml" >
-	<head> 
-		<title>Contact Us</title> 
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
-		<link type="text/css" rel="stylesheet" href="styles/ChineseZodiac.css"/>
-	</head> 
+<!DOCTYPE html>
+<html>
+	<head>
+			<meta charset="utf-8" />
+			<title>The Chinese Zodiac</title>
+		    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" media="screen">
+			<link type="text/css" rel="stylesheet" href="styles/ChineseZodiac.css"/>
+	</head>
 	<body>
-		<!-- Banner -->
-		<div class="banner">
-				<a href="index.html">
-					<img src="images/ChineseZodiacBanner.png" alt="This is a Chinese Zodiac banner." />
-				</a>
-		</div> 
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-4 center-content col-lg-offset-4">
+					<a href="index.html">
+						<img class="img-responsive" src="images/ChineseZodiacBanner.png" alt="This is a Chinese Zodiac banner." />
+					</a>
+				</div>
+			</div>
+			
+			<!-- Navigation -->
+			<div class="container">
+				<div class="row bg-box">
+						<div class="col-sm-4 center-content padded">
+							<a class = "bannerOp" href="index.html"><img class="img-responsive" alt="home" src="images/home.png"/></a>
+						</div>
+						<div class="col-sm-4 center-content padded">
+							<a class = "bannerOp" href="12signs.html"><img class="img-responsive"  alt="12signs" src="images/signs.png"/></a>
+						</div>
+						<div class="col-sm-4 center-content padded">
+							<a class = "bannerOp" href="contactus.html"><img class="img-responsive"  alt="contactus" src="images/contact.png"/></a>
+						</div>
+				</div>
+			</div>
+			
+			<div class="square">
+				<div class="theForm">
+					<div class="formHolder">
+					<form class="form-inline" action="http://php.vncvr.ca/zodiac/" method="post">
+						<div class="form-group">
+							<label for="exampleInputName2">Name</label>
+							<input type="text" class="form-control" name="Name" id="firstName" placeholder="Name">
+						</div>
+						<div class="form-group">
+							<label for="exampleInputEmail2">Email</label>
+							<input type="email" class="form-control" name="Email" id="Email" placeholder="jane.doe@example.com">
+						</div>
+						
+					</form>
+					<form class="form-inline" action="http://php.vncvr.ca/zodiac/" method="post">
+						<label for="exampleInputEmail2">Comment</label>
+					</form>	
+					<form class="form-inline" action="http://php.vncvr.ca/zodiac/" method="post">
+						<textarea name="Comment"  rows="4" cols="50"></textarea>
+					</form>		
+					<form class="form-inline" action="http://php.vncvr.ca/zodiac/" method="post">
+						<button type="submit" class="Submit">Submit</button>
+						<input type="hidden" name="Student1Name" value="Pashan Irani"/>
+						<input type="hidden" name="Student2Name" value="Tony Huang"/>
+						<input type="hidden" name="Set" value="1D"/>
+					</form>
+					
+					
+					</div>
+				</div>
+			</div>
 		
-		<!-- Navigation -->
-		<div class="mainContainer">
-			<div class="topLine">
-				<a class = "bannerOp" href="index.html"><img class="bannerImg" alt="home" src="images/home.png"/></a>
-				<a class = "bannerOp" href="12signs.html"><img class="bannerImg"  alt="12signs" src="images/signs.png"/></a>
-				<a class = "bannerOp" href="contactus.html"><img class="bannerImg"  alt="contactus" src="images/contact.png"/></a>
-			</div>	
-		</div>
 		
-		<!-- Content -->		
+		
+		
+		
+		
+		<!-- Content		
 		<div class="contain">
 			<div class="homeParagraph">
 				<div class="zodiacPage">
@@ -48,11 +95,14 @@
 				</div>
 			</div>
 		</div>
+		-->
 			<!-- Footer -->
-		<div class="foot">
-            <a href='&#109;ailt&#111;&#58;%70a&#115;&#37;68%61%6Eir%&#54;1%6Ei&#64;g&#109;ai&#108;&#46;&#37;63om'>Pashan Irani (A00997355)</a>|
-            <a href='ma&#105;&#108;to&#58;t&#104;&#117;&#97;ng%3&#55;&#53;&#64;%6Dy&#46;bcit&#46;ca'>Tony Huang (A00980543)</a> 
-            <div>Set: 1D</div>
-        </div>
+		<div class="row">
+			<div class="col-xs-12 footer center-content margin-add">
+					<a href='&#109;ailt&#111;&#58;%70a&#115;&#37;68%61%6Eir%&#54;1%6Ei&#64;g&#109;ai&#108;&#46;&#37;63om'>Pashan Irani (A00997355)</a>|
+					<a href='ma&#105;&#108;to&#58;t&#104;&#117;&#97;ng%3&#55;&#53;&#64;%6Dy&#46;bcit&#46;ca'>Tony Huang (A00980543)</a> 
+					<div>Set: 1D</div>
+			</div>
+		</div>
 	</body>
 </html>
