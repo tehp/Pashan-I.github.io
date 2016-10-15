@@ -72,7 +72,7 @@ body{
 }
 
 .hunnid{
-	width: 100%;
+	width: 50%;
 }
 .zodiacPictures{
 	background-color: #801a00;
@@ -115,6 +115,11 @@ th{
 	margin: 0px; 	
 }
 
-input{
-	
+input[type=text] {
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
 }
