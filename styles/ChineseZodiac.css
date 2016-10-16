@@ -161,3 +161,8 @@ textarea{
 :-ms-input-placeholder {  
    color: #b32400;  
 }
+
+.center-me{
+	margin-right: 0px;
+	margin-left: -1vw;
+}
